@@ -1,0 +1,15 @@
+# put your aliases here
+
+terminal = /usr/bin/x-terminal-emulator
+chrome = /usr/bin/google-chrome
+transmission = /usr/bin/transmission-gtk
+
+calculator = /usr/bin/galculator
+editor = /usr/bin/geany
+text editor = /usr/bin/geany
+
+home folder = /usr/bin/thunar
+thunar = /usr/bin/thunar
+
+shutdown = /usr/bin/cb-exit
+lock = /usr/bin/cb-lock
