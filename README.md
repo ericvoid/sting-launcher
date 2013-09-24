@@ -9,13 +9,6 @@ For example, you want to open a terminal, so you...
 
 Menuless, mouseless, iconless.
 
-ingredients
------------
-
-- Linux (I think);
-- Python (I'm sure);
-- Googling powers.
-
 features
 --------
 
@@ -23,6 +16,13 @@ features
 -   config files to customize aliases and colors ;D
 -   before you ask yes, it is inspired on long defunct Enso Launcher
 -   before you complain yes, it is way simpler than Enso Launcher
+
+ingredients
+-----------
+
+- Linux (I think);
+- Python (I'm sure);
+- Googling powers.
 
 installation
 ------------
