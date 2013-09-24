@@ -39,7 +39,14 @@ class Operator:
             
             self.widget.resetText()
             self.widget.dothemagic()
-
+    
+    def handleBackSpace(self):
+        if len(self.search_text) > 1:
+            self.search_text = self.search_text[:-1]
+        else:
+            self.search_text = ''
+            self.widget.resetText()
+            self.widget.dothemagic()
 
     def clampCurrentItemId(self):
         if self.current_item_id < 0:
@@ -59,6 +66,10 @@ class Operator:
 
         elif keyval == gtk.keysyms.Down:
             self.current_item_id += 1
+
+        elif keyval == gtk.keysyms.BackSpace:
+            self.handleBackSpace()
+            self.searchCommands()
 
         elif keyval < 255:
             self.search_text += chr(keyval)
