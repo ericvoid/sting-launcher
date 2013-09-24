@@ -50,6 +50,7 @@ instructions
 -   when the 'type it' screen apears, start typing the name of the
     alias you want to run; when the autocompletion shows what you expect
     press `Enter`;
+-   press `Backspace` to remove the last entered character;
 -   press `Escape` to clear what you typed, and again to close the 
     window;
 -   that's it.
